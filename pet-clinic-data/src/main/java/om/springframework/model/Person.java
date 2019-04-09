@@ -2,7 +2,7 @@ package om.springframework.model;
 
 
 //@MappedSuperclass
-public class Person{
+public class Person extends BaseEntity{
 
     //@Column(name = "first_name")
     //@NotEmpty
