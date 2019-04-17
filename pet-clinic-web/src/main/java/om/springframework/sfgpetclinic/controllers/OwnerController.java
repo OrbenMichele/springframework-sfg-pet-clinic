@@ -9,9 +9,16 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @Controller
 public class OwnerController {
 
+
     private final OwnerService ownerService;
 
     //@SuppressWarnings("SpringJavaInjectionPointsAutowiringInspection")
+    //public OwnerController(){
+    //     this.ownerServiceMap = new OwnerServiceMap();
+        //this.ownerService = ownerService;
+    //}
+
+
     public OwnerController(OwnerService ownerService) {
         this.ownerService = ownerService;
     }
