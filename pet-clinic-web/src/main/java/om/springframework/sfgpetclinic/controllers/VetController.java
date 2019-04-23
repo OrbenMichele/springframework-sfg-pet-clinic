@@ -1,6 +1,6 @@
 package om.springframework.sfgpetclinic.controllers;
 
-import om.springframework.services.map.VetServiceMap;
+import om.springframework.sfgpetclinic.services.map.VetServiceMap;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;

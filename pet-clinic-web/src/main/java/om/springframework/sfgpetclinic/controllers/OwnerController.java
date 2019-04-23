@@ -1,6 +1,6 @@
 package om.springframework.sfgpetclinic.controllers;
 
-import om.springframework.services.OwnerService;
+import om.springframework.sfgpetclinic.services.OwnerService;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -11,13 +11,6 @@ public class OwnerController {
 
 
     private final OwnerService ownerService;
-
-    //@SuppressWarnings("SpringJavaInjectionPointsAutowiringInspection")
-    //public OwnerController(){
-    //     this.ownerServiceMap = new OwnerServiceMap();
-        //this.ownerService = ownerService;
-    //}
-
 
     public OwnerController(OwnerService ownerService) {
         this.ownerService = ownerService;
