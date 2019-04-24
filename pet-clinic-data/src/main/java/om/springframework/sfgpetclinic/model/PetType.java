@@ -4,10 +4,18 @@ import java.time.LocalDate;
 
 public class PetType extends BaseEntity {
 
-
+    private String name;
     private PetType petType;
     private Owner owner;
     private LocalDate localDate;
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
 
     public PetType getPetType() {
         return petType;
@@ -32,4 +40,5 @@ public class PetType extends BaseEntity {
     public void setLocalDate(LocalDate localDate) {
         this.localDate = localDate;
     }
+
 }
