@@ -12,4 +12,9 @@ public class IndexController {
 
         return "index"; // thymeleaf will look for index file
     }
+
+    @RequestMapping({"/error","/oups"})
+    public String oupsHandler(){
+        return "notimplemented";
+    }
 }
