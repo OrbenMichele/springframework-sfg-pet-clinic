@@ -2,7 +2,6 @@ package om.springframework.sfgpetclinic.services.map;
 
 import om.springframework.sfgpetclinic.model.Owner;
 import om.springframework.sfgpetclinic.model.Pet;
-import om.springframework.sfgpetclinic.model.PetType;
 import om.springframework.sfgpetclinic.services.OwnerService;
 import om.springframework.sfgpetclinic.services.PetService;
 import om.springframework.sfgpetclinic.services.PetTypeService;
