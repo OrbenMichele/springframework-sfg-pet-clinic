@@ -3,11 +3,13 @@ package om.springframework.sfgpetclinic.services.map;
 import om.springframework.sfgpetclinic.model.Visit;
 import om.springframework.sfgpetclinic.repositories.VisitRepository;
 import om.springframework.sfgpetclinic.services.VisitService;
+import org.springframework.context.annotation.Profile;
 import org.springframework.stereotype.Service;
 
 import java.util.Set;
 
 @Service
+@Profile({"default","map"})
 public class VisitServiceMap extends AbstractServiceMap<Visit, Long> implements VisitService {
 
     private final VisitRepository visitRepository;
