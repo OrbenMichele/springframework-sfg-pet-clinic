@@ -23,5 +23,10 @@ public class OwnerController {
         return "owners/index"; // thymeleaf will look for index file
     }
 
+    @RequestMapping("/find")
+    public String findOwners(){
+        return "notImplemented";
+    }
+
 
 }
